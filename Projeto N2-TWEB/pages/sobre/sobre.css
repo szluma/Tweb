@@ -1,0 +1,36 @@
+section {
+    margin-top: 20px;
+}
+
+.logotitu {
+    width: 250px;
+}
+
+.imgse {
+    width: 55%;
+    margin-left: 450px;
+    height: 250px;
+}
+
+.imgs {
+    width: 220px;
+    height: 220px;
+    padding: 15px;
+    cursor: pointer;
+    transition: ease 1s;
+    border-radius: 30px;
+}
+
+.imgs:hover {
+    transform: scale(1.2);
+}
+
+.int {
+    color: var(--cor-texto);
+}
+
+.titu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

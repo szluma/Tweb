@@ -1,0 +1,66 @@
+@import url(main.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+:root {
+    --cor-neon:  #0d0906;
+    --cor-gradiente-1: #0a2a5a;
+    --cor-gradiente-2: #03123f;
+    --cor-branca: #fffcff;
+    --cor-texto: #bb261a;
+    --box-shadow: 0 2px 15px #00082e; 
+}
+
+header {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--cor-gradiente-1);
+    color: var(--cor-branca);
+    
+}
+
+header .titulo {
+    align-items: center;
+    color: var(--cor-branca);
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 2rem;
+    padding: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--cor-branca);
+}
+
+nav ul li {
+    text-decoration: none;
+    margin: 0 20px 0;
+    list-style: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    margin-top: auto;
+    background-color: var(--cor-gradiente-1);
+    color: var(--cor-branca);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}

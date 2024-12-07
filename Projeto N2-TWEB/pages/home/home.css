@@ -1,0 +1,44 @@
+.banner {
+    display: flex;
+    margin: auto;
+    margin-top: 5px;
+}
+
+.titulo {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: var(--cor-gradiente-2)
+}
+
+.tit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: var(--cor-gradiente-1);
+}
+
+.buth {
+    background-color: var(--cor-gradiente-1);
+    border-radius: 15px;
+    padding: 10px;
+    width: 250px;
+    border: none;
+    margin: 5px;
+    cursor: pointer;
+}
+.tit .buth {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buth .aho {
+    text-decoration: none;
+    list-style: none;
+    color: var(--cor-branca);
+}
+
+.buth:hover {
+    background-color: var(--cor-gradiente-2);
+}
+
