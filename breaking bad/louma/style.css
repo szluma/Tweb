@@ -37,6 +37,7 @@ main {
     display: flex;
     justify-content: right;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .d1 {
@@ -77,6 +78,7 @@ ul {
 }
 
 footer {
+    position: fixed;
     bottom: 0;
     background-color: black;
     color: var(--cor-branca);
@@ -86,6 +88,40 @@ footer {
     width: 100%;    
     padding: 40px;
 }
+
+ul li {
+    color: #FFF;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    position: relative;
+    display: inline-block;
+  }
+  
+li a::before,
+li a::after {
+    content: "";
+    position: absolute;
+    background-color: #FFF;
+    width: 0%;
+    height: 2px;
+    bottom: 0;
+    transition: width 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+li a::before {
+    left: 0;
+  }
+  
+li a::after {
+    right: 0;
+  }
+  
+li a:hover::before,
+li a:hover::after {
+    width: 100%;
+  }
 
 @media (max-width: 768px) {
     header {
@@ -122,3 +158,4 @@ footer {
     }
 
 }
+
