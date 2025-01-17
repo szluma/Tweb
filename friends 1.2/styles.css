@@ -1,0 +1,83 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'press start 2P', cursive;
+    background-color: rgb(0, 0, 0);
+    color: rgb(27, 21, 16);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+@keyframes friends {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.friends {
+    height: 10px;
+    margin-top: 20px;
+    background: linear-gradient(124deg, #815fe0, #c75bac, #462b23);
+    border-radius: 5px;
+    background-size: 1800% 1800%;
+    animation: friends 3s ease infinite;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 1rem;
+    font-size: 24px;
+    color: rgb(245, 245, 245);
+    text-shadow: 3px 3px rgb(235, 251, 255);
+    animation: friends 3s ease infinite;
+    background: linear-gradient(124deg, #815fe0, #c75bac, #462b23);
+    background-size: 1800% 1800%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgb(114, 33, 168);
+}
+
+.video-player {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: aquamarine;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(red, green, blue, alpha);
+    border: 4px solid rgb(189, 114, 219);
+    overflow: hidden;
+}
+
+video {
+    width: 100%;
+    display: block;
+}
+
+video:focus {
+    outline: none;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 18px;
+    }
+
+    .container {
+        padding: 10px;
+    }
+}
