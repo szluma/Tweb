@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    cursor: pointer;
+}
+
+.imagem {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.5s ease-in-out;
+    object-fit: cover;
+}
+
+
+/* FADED */
+/* @keyframes fade {
+    0% {
+        opacity: 1;
+        visibility: visible;
+    }
+    50% {
+        opacity: 0;
+        visibility: hidden;
+    }
+    100% {
+        opacity: 1;
+        visibility: visible;
+    }
+} */
+
+/*ROTATE */
+/* @keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.M1:hover {
+    animation-play-state: paused;
+} */
+
+/* SWAP */
+.M1 {
+    opacity: 1;
+}
+
+.M2 {
+    opacity: 0;
+}
+
+.container:hover .M2 {
+    opacity: 1;
+}
+
+.container:hover .M1 {
+    opacity: 0;
+}
