@@ -1,0 +1,27 @@
+.apresenho {
+    text-align: center;
+    margin-top: 1%;
+}
+
+.subtithome {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 55px;
+}
+
+.conteiho {
+    display: flex;
+    justify-content: space-around;
+}
+
+.divho1, .divho2 {
+    width: 800px;
+    height: 600px;
+    margin: 10px;
+}
+
+.vidhom1, .vidhom2 {
+    width: 800px;
+    height: 600px;
+}

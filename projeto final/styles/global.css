@@ -1,0 +1,72 @@
+@import url(main.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: linear-gradient(1900deg, #fff0aa, #f874a1);
+}
+
+header, h1 {
+    align-items: center;
+}
+
+.logo {
+    width: 180px;
+    height: 180px;
+    border-radius: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li {
+    text-decoration: none;
+    margin: 0 20px 0;
+    list-style: none;
+}
+
+ul a {
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    position: relative;
+    overflow: hidden;
+}
+
+.footerb {
+    background: linear-gradient(1900deg, #fff0aa, #f874a1);
+    padding: 50px;
+    bottom: 0;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    position: absolute;
+    width: 100%;
+}
+
+.footerr {
+    background: linear-gradient(1900deg, #fff0aa, #f874a1);
+    padding: 50px;
+    bottom: 0;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    width: 100%;
+}
