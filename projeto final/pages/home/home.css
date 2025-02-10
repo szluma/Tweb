@@ -7,7 +7,37 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 55px;
+}
+
+.textboa {
+    margin: 5px;
+    margin-top: 95px;
+}
+
+.cursor {
+    position: relative;
+    width: 20em;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 25px;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+}
+
+.typewriter-animation {
+  animation: 
+    typewriter 5s steps(50) 1s 1 normal both, 
+    blinkingCursor 500ms steps(50) infinite normal;
+}
+
+@keyframes typewriter {
+  from { width: 0; }
+  to { width: 100%; }
+}
+@keyframes blinkingCursor{
+  from { border-right-color: rgba(255,255,255,.75); }
+  to { border-right-color: transparent; }
 }
 
 .conteiho {
@@ -16,9 +46,11 @@
 }
 
 .divho1, .divho2 {
+    border-top-right-radius: 60px;
+    overflow: hidden;
     width: 800px;
     height: 600px;
-    margin: 10px;
+    margin: 30px;
 }
 
 .vidhom1, .vidhom2 {
