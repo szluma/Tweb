@@ -8,21 +8,26 @@
     align-items: center;
     justify-content: center;
     margin-top: 5%;
+    border: 1px #ec5688;
 }
 
 .divform {
-    background-color: #ffffff;
-    width: 30%;
+    background-color: #fff;
+    width: 25%;
+    height: 315px;
     border-radius: 10px;
-    margin: 20px;
-    border: 3px solid rgb(255, 111, 183);
+    margin: 0 auto;
+    border: 1px solid #ec5688;
+    box-shadow: 4px 8px  #c7426e;
+    margin-top: 55px;
 }
 
 label {
     display: block;
     font-weight: bold;
-    color: #201e1e;
+    color: #000000;
     margin: 5px;
+    margin-left: 15px;
 }
 
 input[type="text"],
@@ -31,14 +36,14 @@ textarea {
     width: 95%;
     padding: 3px;
     margin: 5px 0 1px;
-    border: 1px solid pink;
+    border: 3px solid pink;
     border-radius: 5px;
     margin-left: 12px;
 }
 
 .btncon {
-    background-color: pink;
-    color: #fff;
+    background-color: rgb(192, 212, 255);
+    color: #000000;
     padding: 5px 10px;
     border-radius: 20px;
     cursor: pointer;
@@ -61,4 +66,10 @@ textarea {
     --t: 0.3s;
     color: #fff;
 } 
+
+@media (max-width: 768px) {
+    .divform {
+        width: 50%;
+    }
+}
 

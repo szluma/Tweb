@@ -1,0 +1,43 @@
+.secmarr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 100px;
+}
+
+.marrdiv1 {
+    margin: 10px;
+}
+
+.marrdiv2 {
+    width: 30%;
+    margin: 10px;
+}
+
+.titmarr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pmarr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.marrimg {
+    width: 600px;
+    height: 400px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .marrimg {
+        width: 425px;
+        height: 350px;
+    }
+}

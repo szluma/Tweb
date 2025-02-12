@@ -1,0 +1,44 @@
+.secdiver {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 100px;
+}
+
+.diverdiv1 {
+    margin: 10px;
+}
+
+.diverdiv2 {
+    width: 30%;
+    margin: 10px;
+}
+
+.titdiver {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pdiver {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.diverimg {
+    width: 600px;
+    height: 400px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+@media (max-width: 768px) {
+    .diverimg {
+        width: 420px;
+        height: 350px;
+    }
+}

@@ -1,0 +1,38 @@
+.conteiso {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px;
+    margin-top: 45px;
+}
+
+.pic1 {
+    width: 550px;
+    height: 500px;
+    border-radius: 10px;
+} 
+
+.textso {
+    width: 700px;
+}
+
+.apresenso {
+    text-align: center;
+    font-size: larger;
+}
+
+@media (max-width: 768px) {
+    .conteiso {
+        gap: 2rem;
+    }
+
+    .pic1 {
+        width: 300px;
+        height: 270px;
+    }
+
+    .apresenso {
+        font-size: small;
+        text-align: justify;
+    }
+}

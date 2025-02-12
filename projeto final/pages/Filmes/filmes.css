@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 20px;
+    margin: 20px;
 }
 
 aside {
@@ -14,19 +14,18 @@ aside {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 30px;
+    gap: 40px;
+    margin: 10px;
 }
 
 .divani {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 30px;
-    margin-top: 35px;
+    gap: 40px;
+    margin-top: 75px;
     margin-bottom: 10px;
-    border: 5px solid black;
 }
-
 
 .imgsfi {
     display: flex;
@@ -35,11 +34,20 @@ aside {
     width: 395px;
     height: 600px;
     cursor: pointer;
+    border-radius: 10px;
+    -webkit-mask-image: linear-gradient(45deg,#000 25%,rgba(0,0,0,.2) 50%,#000 75%);
+    mask-image: linear-gradient(45deg,#000 25%,rgba(0,0,0,.2) 50%,#000 75%);
+    -webkit-mask-size: 800%;
+    mask-size: 800%;
+    -webkit-mask-position: 0;
+    mask-position: 0;
 }
-
-.divpre {
-    width: auto;
-    max-width: 400px;
+  
+.imgsfi:hover {
+    transition: mask-position 2s ease,-webkit-mask-position 2s ease;
+    -webkit-mask-position: 120%;
+    mask-position: 120%;
+    opacity: 1;
 }
 
 .divmi {
@@ -66,8 +74,47 @@ aside {
     cursor: pointer;
 }
 
-
 .descdive {
     display: flex;
     text-align: center;
+    margin: 10px;
+}
+
+.descmarr {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.descmar {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.dpsimgfi {
+    text-align: center;
+    margin: 30px;
+    color: #f72428;
+}
+
+@media (max-width: 768px) {
+    .divlv {
+        width: 50%;
+        margin-left: 193px;
+        font-size: small;
+    }
+
+    .divani {
+        width: 50%;
+        font-size: small;
+        margin-left: 193px;
+    }
+
+    .imgsfi {
+        width: 350px;
+        height: 450px;
+    }
+
+    .dpsimgfi {
+        font-size: medium;
+    }
 }

@@ -1,0 +1,43 @@
+.secmira {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 100px;
+}
+
+.miradiv1 {
+    margin: 10px;
+}
+
+.miradiv2 {
+    width: 30%;
+    margin: 10px;
+}
+
+.titmira {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pmira {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.miraimg {
+    width: 600px;
+    height: 400px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .miraimg {
+        width: 410px;
+        height: 350px;
+    }  
+}

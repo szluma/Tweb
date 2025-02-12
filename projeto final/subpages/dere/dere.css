@@ -1,0 +1,45 @@
+.secdere {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 100px;
+}
+
+.derediv1 {
+    margin: 10px;
+}
+
+.derediv2 {
+    width: 30%;
+    margin: 10px;
+}
+
+.titdere {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pdere {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.dereimg {
+    width: 600px;
+    height: 400px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .dereimg {
+        margin: 10px;
+        width: 400px;
+        height: 340px
+    }  
+
+}
