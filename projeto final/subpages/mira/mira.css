@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: center;
     gap: 50px;
-    margin-top: 100px;
+    margin-top: 20px;
 }
 
 .miradiv1 {
@@ -40,4 +40,40 @@
         width: 410px;
         height: 350px;
     }  
+}
+
+@media (max-width: 480px) {
+    .miradiv1 {
+        margin-top: -65px;
+        margin-left: 75px;
+    }
+
+    .miradiv2 {
+        margin-left: 75px;
+        width: 65%;
+    }
+    
+    .miraimg {
+        width: 325px;
+        height: 250px;
+    }
+
+    .secmira {
+        display: flex;
+        flex-direction: column;
+        margin-top: 80px;
+        margin-left: -50px;
+    }
+
+    .titmira {
+        font-size: small;
+    }
+
+    .pmira {
+        font-size: small;
+    }
+
+    .footerb {
+        margin-top: 666px;
+    }
 }

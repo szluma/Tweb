@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: center;
     gap: 50px;
-    margin-top: 100px;
+    margin-top: 20px;
 }
 
 .diverdiv1 {
@@ -40,5 +40,41 @@
     .diverimg {
         width: 420px;
         height: 350px;
+    }
+}
+
+@media (max-width: 480px) {
+    .diverdiv1 {
+        margin-top: 8px;
+        margin-left: 25px;
+    }
+
+    .diverdiv2 {
+        margin-left: 25px;
+        width: 65%;
+    }
+    
+    .diverimg {
+        width: 325px;
+        height: 250px;
+    }
+
+    .secdiver {
+        display: flex;
+        flex-direction: column;
+        margin-top: 8px;
+        margin-left: -10px;
+    }
+
+    .titdiver {
+        font-size: small;
+    }
+
+    .pdiver {
+        font-size: small;
+    }
+
+    .footerb {
+        margin-bottom: -345px;
     }
 }

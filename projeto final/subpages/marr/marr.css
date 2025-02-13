@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: center;
     gap: 50px;
-    margin-top: 100px;
+    margin-top: 20px;
 }
 
 .marrdiv1 {
@@ -39,5 +39,41 @@
     .marrimg {
         width: 425px;
         height: 350px;
+    }
+}
+
+@media (max-width: 480px) {
+    .marrdiv1 {
+        margin-top: -65px;
+        margin-left: 75px;
+    }
+
+    .marrdiv2 {
+        margin-left: 75px;
+        width: 65%;
+    }
+    
+    .marrimg {
+        width: 325px;
+        height: 250px;
+    }
+
+    .secmarr {
+        display: flex;
+        flex-direction: column;
+        margin-top: 80px;
+        margin-left: -50px;
+    }
+
+    .titmar {
+        font-size: small;
+    }
+
+    .pmarr {
+        font-size: small;
+    }
+
+    .footerb {
+        margin-top: 215px;
     }
 }

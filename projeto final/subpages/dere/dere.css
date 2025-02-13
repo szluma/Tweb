@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: center;
     gap: 50px;
-    margin-top: 100px;
+    margin-top: 20px;
 }
 
 .derediv1 {
@@ -42,4 +42,40 @@
         height: 340px
     }  
 
+}
+
+@media (max-width: 480px) {
+    .derediv1 {
+        margin-top: 8px;
+        margin-left: 25px;
+    }
+
+    .derediv2 {
+        margin-left: 25px;
+        width: 65%;
+    }
+    
+    .dereimg {
+        width: 325px;
+        height: 250px;
+    }
+
+    .secdere {
+        display: flex;
+        flex-direction: column;
+        margin-top: 8px;
+        margin-left: -10px;
+    }
+
+    .titdere {
+        font-size: small;
+    }
+
+    .pdere {
+        font-size: small;
+    }
+
+    .footerb {
+        margin-top: 215px;
+    }
 }
